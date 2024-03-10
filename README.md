@@ -1,2 +1,2 @@
-# ramadan
-https://aladaapp.github.io/ramadan
+# Ramadan
+Ramadan Calendar 2024: Using HTML CSS & JavaSxeipt
