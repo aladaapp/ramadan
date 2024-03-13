@@ -31,16 +31,11 @@ let row28 = document.getElementById('28');
 let row29 = document.getElementById('29');
 let row30 = document.getElementById('30');
 
-
-
 let date = new Date();
 let day = date.getDate();
 let tarik = date.getHours();
 let minite = date.getMinutes();
 let mante = date.getMonth();
-
-
-
 
 if (mante == 3 && day == 3) {
 	selectRow(row01,3,4,31,18,16,"apr");

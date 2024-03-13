@@ -20,6 +20,7 @@
 		 <h1>তোহফায়ে রমাযান</h1>
 		 <h3>ঢাকা ও পার্শ্ববর্তী এলাকার জন্য সাহরী ও ইফতারের সময়সূচি</h3>
 		 <h3>রমাযান ১৪৪৫ হিজরী, ২০২৪ খ্রি.. ১৪৩০ বাংলা</h3>
+		 <p id="datetime"></p>
 
 		 <!-- today time zoon -->
 		 <div class="btn-group btn-group-sm btn-group-toggle mb-2 mt-2" data-toggle="buttons" hidden>
@@ -495,5 +496,97 @@
        <script type="text/javascript" src="js/javaScript/moment-with-locales.min.js"></script>
        <script type="text/javascript" src="js/javaScript/PrayTimes.js"></script>
 	   <script src="js/main.js"></script>
+	   <!-- blinking Background color in JS-->
+	   <script>
+		 /*blinking color*/
+		 function badBG(){
+			var colors = ['#29E026','#12c078','#58c012']
+			for(i=0; i<3; i++){
+				colorBG = colors[Math.floor(Math.random()*3)];
+			}
+			return colorBG
+		 }
+		 function blinkBG(){
+			start_blink_color = badBG()
+
+		 /*function start*/
+		 // Get current date and time
+		 var now = new Date();
+         var final_datetime_string = now.toLocaleString(); //date and time
+
+		 // Insert date and time into HTML
+		 //document.getElementById("datetime").innerHTML = today_date;
+
+		 // If conditions
+		 var today_date = now.toLocaleDateString(); //today date
+		 document.getElementById("datetime").innerHTML = today_date;
+		 if(today_date == "3/12/2024") {
+			document.getElementById("01").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/13/2024") {
+			document.getElementById("02").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/14/2024") {
+			document.getElementById("03").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/15/2024") {
+			document.getElementById("04").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/16/2024") {
+			document.getElementById("05").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/17/2024") {
+			document.getElementById("06").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/18/2024") {
+			document.getElementById("07").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/19/2024") {
+			document.getElementById("08").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/20/2024") {
+			document.getElementById("09").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/21/2024") {
+			document.getElementById("10").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/22/2024") {
+			document.getElementById("11").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/23/2024") {
+			document.getElementById("12").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/24/2024") {
+			document.getElementById("13").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/25/2024") {
+			document.getElementById("14").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/26/2024") {
+			document.getElementById("15").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/27/2024") {
+			document.getElementById("16").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/28/2024") {
+			document.getElementById("17").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/29/2024") {
+			document.getElementById("18").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/30/2024") {
+			document.getElementById("19").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "3/31/2024") {
+			document.getElementById("20").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/1/2024") { //1 april
+			document.getElementById("21").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/2/2024") {
+			document.getElementById("22").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/3/2024") {
+			document.getElementById("23").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/4/2024") {
+			document.getElementById("24").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/5/2024") {
+			document.getElementById("25").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/6/2024") {
+			document.getElementById("26").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/7/2024") {
+			document.getElementById("27").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/8/2024") {
+			document.getElementById("28").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/9/2024") {
+			document.getElementById("29").style.backgroundColor = start_blink_color; //insert blink background
+		 } if (today_date == "4/10/2024") {
+			document.getElementById("30").style.backgroundColor = start_blink_color; //insert blink background
+		 } else{
+
+		 }
+
+		 /*function stop*/
+		 }
+		 setInterval("blinkBG()",100); //set blink time
+	   </script>
 	</body>
 </html>
