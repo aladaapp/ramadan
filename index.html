@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>সাহরী ও ইফতারের সময়সূচি</title>
+		<!-- CSS files-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+		<!-- heder img -->
+	    <div>
+			<img class="hader-img-bg" src="images/mosque.png">
+			<!-- logo
+			<img class="aladaapp-logo" src="images/made_by_logo.png">
+		    -->
+		</div>
+
+		<!-- heder bar -->
+		<div class="main-title-layout">
+		 <h1>তোহফায়ে রমাযান</h1>
+		 <h3>ঢাকা ও পার্শ্ববর্তী এলাকার জন্য সাহরী ও ইফতারের সময়সূচি</h3>
+		 <h3>রমাযান ১৪৪৫ হিজরী, ২০২৪ খ্রি.. ১৪৩০ বাংলা</h3>
+
+		 <!-- today time zoon -->
+		 <div class="btn-group btn-group-sm btn-group-toggle mb-2 mt-2" data-toggle="buttons" hidden>
+			<label class="btn btn-secondary active">
+			  <input type="radio" name="lang" id="lang-bn" value="bn" autocomplete="off" checked>রমাদান</input>
+			</label>
+		  </div>
+		  <p id="currentDateTime" class="current-time"></p>
+		</div>
+
+		<div style="background-color: #00A2E3; width: 100%; height: 7px; margin-bottom: 20px;"></div>
+
+		<!-- ramadan calendar layout -->
+	    <div class="calendar-layout" >
+		<!--ramadan 1st 10day-->
+		<div class="ramadan-10day-layout">
+			<h2 class="ramadan-10day-title">রহমতের ১০ দিন</h2> 
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>রমাদান</td>
+					<td>তারিখ</td>
+					<td>বার</td>
+					<td>সেহরির শেষ সময়</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="01">
+					<td>১</td>
+					<td>১২ মার্চ</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:৫১</td>
+					<td>৬:১০</td>
+				</tr>
+				<tr id="02">
+					<td>২</td>
+					<td>১৩ মার্চ</td>
+					<td>বুধবার</td>
+					<td>৪:৫০</td>
+					<td>৬:১০</td>
+				</tr>
+				<tr id="03">
+					<td>৩</td>
+					<td>১৪ মার্চ</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:৪৯</td>
+					<td>৬:১১</td>
+				</tr>
+				<tr id="04">
+					<td>৪</td>
+					<td>১৫ মার্চ</td>
+					<td>শুক্রবার</td>
+					<td>৪:৪৮</td>
+					<td>৬:১১</td>
+				</tr>
+				<tr id="05">
+					<td>৫</td>
+					<td>১৬ মার্চ</td>
+					<td>শনিবার</td>
+					<td>৪:৪৭</td>
+					<td>৬:১২</td>
+				</tr>
+				<tr id="06">
+					<td>৬</td>
+					<td>১৭ মার্চ</td>
+					<td>রবিবার</td>
+					<td>৪:৪৬</td>
+					<td>৬:১২</td>
+				</tr>
+				<tr id="07">
+					<td>৭</td>
+					<td>১৮ মার্চ</td>
+					<td>সোমবার</td>
+					<td>৪:৪৫</td>
+					<td>৬:১২</td>
+				</tr>
+				<tr id="08">
+					<td>৮</td>
+					<td>১৯ মার্চ</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:৪৪</td>
+					<td>৬:১৩</td>
+				</tr>
+				<tr id="09">
+					<td>৯</td>
+					<td>২০ মার্চ</td>
+					<td>বুধবার</td>
+					<td>৪:৪৩</td>
+					<td>৬:১৩</td>
+				</tr>
+				<tr id="10">
+					<td>১০</td>
+					<td>২১ মার্চ</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:৪২</td>
+					<td>৬:১৩</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--ramadan 2nd 10day-->
+		<div class="ramadan-10day-layout">
+			<h2 class="ramadan-10day-title">মাগফিরাতের ১০ দিন</h2>
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>রমাদান</td>
+					<td>তারিখ</td>
+					<td>বার</td>
+					<td>সেহরির শেষ সময়</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="11">
+					<td>১১</td>
+					<td>২২ মার্চ</td>
+					<td>শুক্রবার</td>
+					<td>৪:৪১</td>
+					<td>৬:১৪</td>
+				</tr>
+				<tr id="12">
+					<td>১২</td>
+					<td>২৩ মার্চ</td>
+					<td>শনিবার</td>
+					<td>৪:৪০</td>
+					<td>৬:১৪</td>
+				</tr>
+				<tr id="13">
+					<td>১৩</td>
+					<td>২৪ মার্চ</td>
+					<td>রবিবার</td>
+					<td>৪:৩৯</td>
+					<td>৬:১৪</td>
+				</tr>
+				<tr id="14">
+					<td>১৪</td>
+					<td>২৫ মার্চ</td>
+					<td>সোমবার</td>
+					<td>৪:৩৮</td>
+					<td>৬:১৫</td>
+				</tr>
+				<tr id="15">
+					<td>১৫</td>
+					<td>২৬ মার্চ</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:৩৬</td>
+					<td>৬:১৫</td>
+				</tr>
+				<tr id="16">
+					<td>১৬</td>
+					<td>২৭ মার্চ</td>
+					<td>বুধবার</td>
+					<td>৪:৩৫</td>
+					<td>৬:১৬</td>
+				</tr>
+				<tr id="17">
+					<td>১৭</td>
+					<td>২৮ মার্চ</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:৩৪</td>
+					<td>৬:১৬</td>
+				</tr>
+				<tr id="18">
+					<td>১৮</td>
+					<td>২৯ মার্চ</td>
+					<td>শুক্রবার</td>
+					<td>৪:৩৩</td>
+					<td>৬:১৭</td>
+				</tr>
+				<tr id="19">
+					<td>১৯</td>
+					<td>৩০ মার্চ</td>
+					<td>শনিবার</td>
+					<td>৪:৩১</td>
+					<td>৬:১৭</td>
+				</tr>
+				<tr id="20">
+					<td>২০</td>
+					<td>৩১ মার্চ</td>
+					<td>রবিবার</td>
+					<td>৪:৩০</td>
+					<td>৬:১৮</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--ramadan 3rd 10day-->
+		<div class="ramadan-10day-layout">
+			<h2 class="ramadan-10day-title">নাজাতের ১০ দিন</h2>
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>রমাদান</td>
+					<td>তারিখ</td>
+					<td>বার</td>
+					<td>সেহরির শেষ সময়</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="21">
+					<td>২১</td>
+					<td>০১ এপ্রিল</td>
+					<td>সোমবার</td>
+					<td>৪:২৯</td>
+					<td>৬:১৮</td>
+				</tr>
+				<tr id="22">
+					<td>২২</td>
+					<td>০২ এপ্রিল</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:২৮</td>
+					<td>৬:১৯</td>
+				</tr>
+				<tr id="23">
+					<td>২৩</td>
+					<td>০৩ এপ্রিল</td>
+					<td>বুধবার</td>
+					<td>৪:২৭</td>
+					<td>৬:১৯</td>
+				</tr>
+				<tr id="24">
+					<td>২৪</td>
+					<td>০৪ এপ্রিল</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:২৬</td>
+					<td>৬:১৯</td>
+				</tr>
+				<tr id="25">
+					<td>২৫</td>
+					<td>০৫ এপ্রিল</td>
+					<td>শুক্রবার</td>
+					<td>৪:২৪</td>
+					<td>৬:২০</td>
+				</tr>
+				<tr id="26">
+					<td>২৬</td>
+					<td>০৬ এপ্রিল</td>
+					<td>শনিবার</td>
+					<td>৪:২৪</td>
+					<td>৬:২০</td>
+				</tr>
+				<tr id="27">
+					<td>২৭</td>
+					<td>০৭ এপ্রিল</td>
+					<td>রবিবার</td>
+					<td>৪:২৩</td>
+					<td>৬:২১</td>
+				</tr>
+				<tr id="28">
+					<td>২৮</td>
+					<td>০৮ এপ্রিল</td>
+					<td>সোমবার</td>
+					<td>৪:২২</td>
+					<td>৬:২১</td>
+				</tr>
+				<tr id="29">
+					<td>২৯</td>
+					<td>০৯ এপ্রিল</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:২১</td>
+					<td>৬:২১</td>
+				</tr>
+				<tr id="30">
+					<td>৩০</td>
+					<td>১০ এপ্রিল</td>
+					<td>বুধবার</td>
+					<td>৪:২০</td>
+					<td>৬:২২</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--ramadan 1st 10day: small size-->
+		<div hidden class="ramadan-10day-layout">
+			<h2 class="ramadan-10day-title">রহমতের ১০ দিন</h2> 
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>রমাদান</td>
+					<td>তারিখ</td>
+					<td>বার</td>
+					<td>সাহরী শেষ</td>
+					<td>ফজরের আযান</td>
+					<td>ইফতার</td>
+
+					<td>রমাদান</td>
+					<td>তারিখ</td>
+					<td>বার</td>
+					<td>সাহরী শেষ</td>
+					<td>ফজরের আযান</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="01_06">
+					<!--ramadan 01 time-->
+					<td>১</td>
+					<td>১২ মার্চ</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:৫৫</td>
+					<td>৫:০১</td>
+					<td>৬:১৩</td>
+
+					<!--ramadan 06 time-->
+					<td>৬</td>
+					<td>১৭ মার্চ</td>
+					<td>রবিবার</td>
+					<td>৪:৫০</td>
+					<td>৪:৫৬</td>
+					<td>৬:১৫</td>
+				</tr>
+				<tr id="02_07">
+					<!--ramadan 02 time-->
+					<td>২</td>
+					<td>১৩ মার্চ</td>
+					<td>বুধবার</td>
+					<td>৪:৫৪</td>
+					<td>৫:০০</td>
+					<td>৬:১৪</td>
+
+					<!--ramadan 07 time-->
+					<td>৭</td>
+					<td>১৮ মার্চ</td>
+					<td>সোমবার</td>
+					<td>৪:৪৯</td>
+					<td>৪:৫৫</td>
+					<td>৬:১৬</td>
+				</tr>
+				<tr id="03_08">
+					<!--ramadan 03 time-->
+					<td>৩</td>
+					<td>১৪ মার্চ</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:৫৩</td>
+					<td>৪:৫৯</td>
+					<td>৬:১৪</td>
+
+					<!--ramadan 08 time-->
+					<td>৮</td>
+					<td>১৯ মার্চ</td>
+					<td>মঙ্গলবার</td>
+					<td>৪:৪৮</td>
+					<td>৪:৫৪</td>
+					<td>৬:১৬</td>
+				</tr>
+				<tr id="04_09">
+					<!--ramadan 04 time-->
+					<td>৪</td>
+					<td>১৫ মার্চ</td>
+					<td>শুক্রবার</td>
+					<td>৪:৫২</td>
+					<td>৪:৫৮</td>
+					<td>৬:১৫</td>
+
+					<!--ramadan 09 time-->
+					<td>৯</td>
+					<td>২০ মার্চ</td>
+					<td>বুধবার</td>
+					<td>৪:৪৮</td>
+					<td>৪:৫৪</td>
+					<td>৬:১৬</td>
+				</tr>
+				<tr id="05_10">
+					<!--ramadan 05 time-->
+					<td>৫</td>
+					<td>১৬ মার্চ</td>
+					<td>শনিবার</td>
+					<td>৪:৫১</td>
+					<td>৪:৫৭</td>
+					<td>৬:১৫</td>
+
+					<!--ramadan 10 time-->
+					<td>১০</td>
+					<td>২১ মার্চ</td>
+					<td>বৃহস্পতিবার</td>
+					<td>৪:৪৭</td>
+					<td>৪:৫৩</td>
+					<td>৬:১৭</td>
+				</tr>
+			</table>
+		</div>
+	    </div>
+
+		<!--city settings-->
+		<div class="city-adjust-time-layout">
+		  <div class="city-time-layout">
+			<h2 class="ramadan-city-title">ঢাকার সময় থেকে বাড়বে</h2>
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>শহর</td>
+					<td>সেহরি</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="rajshahi_city">
+					<td id="rajshahi">রাজশাহী</td>
+					<td>৬ মিনিট</td>
+					<td>৭ মিনিট</td>
+				</tr>
+				<tr id="rangpur_city">
+					<td id="rangpur">রংপুর</td>
+					<td>৪ মিনিট</td>
+					<td>৫ মিনিট</td>
+				</tr>
+				<tr id="khulna_city">
+					<td id="khulna">খুলনা</td>
+					<td>৪ মিনিট</td>
+					<td>৩ মিনিট</td>
+				</tr>
+				<tr id="barisal_city">
+					<td id="barisal">বরিশাল</td>
+					<td>১ মিনিট</td>
+					<td>০ মিনিট</td>
+				</tr>
+				<tr id="">
+					<td id=""> .</td>
+					<td> .</td>
+					<td> .</td>
+				</tr>
+			</table>
+		  </div>
+
+		  <div class="city-time-layout">
+			<h2 class="ramadan-city-title">ঢাকার সময় থেকে কমবে</h2>
+			<table class="tableDesign">
+				<tr class="haderTitle">
+					<td>শহর</td>
+					<td>সেহরি</td>
+					<td>ইফতার</td>
+				</tr>
+				<tr id="sylhet_city">
+					<td id="sylhet">সিলেট</td>
+					<td>৭ মিনিট</td>
+					<td>৬ মিনিট</td>
+				</tr>
+				<tr id="chittagong_city">
+					<td id="chittagong">চট্টগ্রাম</td>
+					<td>৫ মিনিট</td>
+					<td>৬ মিনিট</td>
+				</tr>
+				<tr id="mymensingh_city">
+					<td id="mymensingh">ময়মনসিংহ</td>
+					<td>১ মিনিট</td>
+					<td>০ মিনিট</td>
+				</tr>
+				<tr id="">
+					<td id=""> .</td>
+					<td> .</td>
+					<td> .</td>
+				</tr>
+				<tr id="">
+					<td id=""> .</td>
+					<td> .</td>
+					<td> .</td>
+				</tr>
+			</table>
+		  </div>
+		</div>
+		<!--city settings-->
+
+		<!-- footer section -->
+		<footer class="footer-section">
+			<!-- go google play-story -->
+			<center style="align: center;">
+				<a href="https://play.google.com/store/apps/details?id=com.aladaapp.countdownbengalclock"><img alt="Get it on Google Play" 
+			  src="images/badge_play_story_p001_202402.svg" width="95" height="35"></a>
+				
+			    <a href="https://play.google.com/store/apps/details?id=com.aladaapp.countdownbengalclock"><img alt="Get it on Google Play" 
+			  src="images/badge_app_store_p001_202401.svg" width="95" height="35"></a>
+			</center>
+
+            <!-- copyright scripts -->
+			<div>
+			   <h5 class="copyright" style="color:#a1b303;">Developer by <span class="text-danger">&hearts;</span> <a href="https://freelancermustakin.github.io" target="_blank" style="color:#D9E9F9;">@freelancermustakin</a>   Design <a href="https://aladaapp.github.io/" target="_blank" style="color:#D9E9F9;">@aladaapp</a></h5>
+			</div>
+	   </footer>
+
+		<!-- JS files-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+       <script type="text/javascript" src="js/javaScript/app.js"></script>
+       <script type="text/javascript" src="js/javaScript/moment-with-locales.min.js"></script>
+       <script type="text/javascript" src="js/javaScript/PrayTimes.js"></script>
+	   <script src="js/main.js"></script>
+	</body>
+</html>
